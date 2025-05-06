@@ -3,6 +3,7 @@
 namespace Database\Seeders;
 
 use Illuminate\Database\Console\Seeds\WithoutModelEvents;
+use Illuminate\Support\Facades\Auth;
 use Illuminate\Database\Seeder;
 use App\Models\Category;
 

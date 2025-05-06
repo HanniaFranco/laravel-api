@@ -12,8 +12,9 @@ class CategoryController extends Controller
 {
     public function list()
     {
-        //return Category::all();
+        return Category::all();
 
+        /*
         try {
             
             return response()->json(Category::all());
@@ -23,6 +24,7 @@ class CategoryController extends Controller
             return response()->json(['error' => $e->getMessage()], 500);
 
         }
+        */
         
     }
 
